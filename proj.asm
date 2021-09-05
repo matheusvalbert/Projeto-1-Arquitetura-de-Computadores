@@ -625,6 +625,9 @@ invalidoGanhadorTroca:																			# caso o numero do ganhador nao seja 1 
 t1WinTroca:																						# time1 campeao
 	sll		$s0, $s0, 2																			# multiplica por 4 a posicao 1 digitada
 	sll		$s1, $s1, 2																			# multiplica por 4 a posicao 2 digitada
+	lw		$t0, jogos($s2)																		# carrega o resultado do jogo
+	addi	$t1, $0, 1																			# move o valor 1 para o registrador t1
+	beq		$t0, $t1, fimResultadosTroca														# caso o time1 ja seja o campeao, nao faz nada
 	addi	$t0, $0, 1																			# move para t0 o valor 1
 	sw		$t0, jogos($s2)																		# salva no time1 o valor 1 referente a vitoria
 	lw		$t0, derrotas($s0)																	# carrega o numero de derrotas do time1
@@ -645,6 +648,9 @@ t1WinTroca:																						# time1 campeao
 t2WinTroca:																						# time2 campeao
 	sll		$s0, $s0, 2																			# multiplica por 4 a posicao 1 digitada
 	sll		$s1, $s1, 2																			# multiplica por 4 a posicao 2 digitada
+	lw		$t0, jogos($s3)																		# carrega o resultado do jogo
+	addi	$t1, $0, 1																			# move o valor 1 para o registrador t1
+	beq		$t0, $t1, fimResultadosTroca														# caso o time2 ja seja o campeao, nao faz nada
 	addi	$t0, $0, 1																			# move o valor 1 para t0
 	sw		$t0, jogos($s3)																		# salva no time2 o valor 1 referente a vitoria
 	lw		$t0, derrotas($s1)																	# carrega o numero de derrotas do time2
