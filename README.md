@@ -1,4 +1,4 @@
-# Projeto-1-Arquitetura-de-Computadores
+# Projeto 1: Arquitetura de Computadores
 O projeto foi desenvolvido utilizando Assembly MIPS (matéria quarto semestre de engenharia de computação).
 
 # Especificação
