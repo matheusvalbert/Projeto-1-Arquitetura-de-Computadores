@@ -20,3 +20,10 @@ O projeto foi desenvolvido utilizando Assembly MIPS (matéria quarto semestre de
 # Desafios
 1) Imprimir tabela ordenada: Ordenar a tabela por número de vitórias e imprimir na tela.
 2) Autenticação de acesso: Antes de ter acesso ao menu de funções, o responsável deverá digitar uma senha para garantir segurança adicional no sistema.
+
+# Ferramentas
+
+```
+QtSpim versão: 9.1.23
+```
+
