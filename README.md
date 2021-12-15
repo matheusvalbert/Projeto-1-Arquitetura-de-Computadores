@@ -6,6 +6,7 @@ O projeto foi desenvolvido utilizando Assembly MIPS (matéria quarto semestre de
 - Na fase de grupos, cada time jogará 1 única vez com cada oponente e ao final, terá jogado com todos. 
 - No final da fase de grupos, os dois primeiros lugares já estarão qualificados para  as semifinais, os dois últimos já estarão rebaixados para o Circuito Desafiante (uma espécie de Série B), o sétimo e oitavo lugares estão desclassificados da etapa final, e os outros 4 times restantes jogarão as quartas de final 
 - Modelo da tabela:
+
 ![alt text](https://github.com/matheusvalbert/Projeto-1-Arquitetura-de-Computadores/blob/main/tabela.png)
 
 # Funcionalidades
