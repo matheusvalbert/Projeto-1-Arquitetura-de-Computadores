@@ -7,7 +7,9 @@ O projeto foi desenvolvido utilizando Assembly MIPS (matéria quarto semestre de
 - No final da fase de grupos, os dois primeiros lugares já estarão qualificados para  as semifinais, os dois últimos já estarão rebaixados para o Circuito Desafiante (uma espécie de Série B), o sétimo e oitavo lugares estão desclassificados da etapa final, e os outros 4 times restantes jogarão as quartas de final 
 - Modelo da tabela:
 
-![alt text](https://github.com/matheusvalbert/Projeto-1-Arquitetura-de-Computadores/blob/main/tabela.png)
+<p align="center">
+  <img src="https://github.com/matheusvalbert/Projeto-1-Arquitetura-de-Computadores/blob/main/tabela.png" />
+</p>
 
 # Funcionalidades
 1) Registrar times: O registro de todos os times será de uma vez só.
@@ -17,4 +19,4 @@ O projeto foi desenvolvido utilizando Assembly MIPS (matéria quarto semestre de
 
 # Desafios
 1) Imprimir tabela ordenada: Ordenar a tabela por número de vitórias e imprimir na tela.
-2) Autenticação de acesso: Antes de ter acesso ao menu de funções, o responsável deverá digitar uma senha para garantir segurança adicional no sistema. 
+2) Autenticação de acesso: Antes de ter acesso ao menu de funções, o responsável deverá digitar uma senha para garantir segurança adicional no sistema.
